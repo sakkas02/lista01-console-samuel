@@ -1,4 +1,10 @@
-﻿int numero;
-Console.WriteLine("Digite um número:");
-numero = int.Parse(Console.ReadLine());
-Console.WriteLine($"O antecessor do número é: {numero - 1}");
+﻿int largura;
+int altura;
+
+Console.WriteLine("Escreva a lagura do retangulo"); 
+largura = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Escreva a alutra do retangulo");
+altura = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"A área é igual {altura*largura}");    
