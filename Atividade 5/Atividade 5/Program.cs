@@ -1,0 +1,15 @@
+﻿int eleitores;
+int votoBranco;
+int nulo;
+int validos;
+Console.WriteLine("Digite quantos eleitores tiveram:");
+eleitores = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos em branco tiveram:");
+votoBranco = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos nulos tiveram:");
+nulo = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos válidos tiveram:");
+validos = int.Parse(Console.ReadLine());
+Console.WriteLine($"Do total de {eleitores} eleitores: {votoBranco * 100 / eleitores}% foram em branco");
+Console.WriteLine($"Do total de {eleitores} eleitores: {nulo * 100 / eleitores}% foram nulo");
+Console.WriteLine($"Do total de {eleitores} eleitores: {validos * 100 / eleitores}% foram em válidos");
