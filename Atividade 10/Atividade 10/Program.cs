@@ -9,7 +9,7 @@ Console.WriteLine("Escreva a sua segunda nota");
 nota2 = double.Parse(Console.ReadLine());
 media = (nota1 + nota2) / 2;
 
-if (media>6)
+if (media>=6)
 {
     Console.WriteLine($"Sua situação é de APROVADO, com a média {media}");
 }
